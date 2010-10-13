@@ -3,10 +3,11 @@
 production:
   delivery_method: :smtp
   smtp_settings:
-    address: smptp.gmail.com
-    port: 587
-    domain: gmail.com
-    authentication: :login
+    tls: true
+    enable_starttls_auto: true
+    address: "smtp.gmail.com"
+    port: '587'
+    domain: "smtp.gmail.com"
+    authentication: :plain
     user_name: "heroku.redmine.mail@gmail.com"
     password: "r3dm1n3h3r0ku"
-    tls: true
