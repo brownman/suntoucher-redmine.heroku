@@ -58,7 +58,7 @@ wiki_compression:
 default_language:
   default: en
 host_name:
-  default: localhost:3000
+  default: suntoucher-redmine.heroku.com
 protocol:
   default: http
 feeds_limit:

@@ -9,5 +9,5 @@ production:
     port: '587'
     domain: "smtp.gmail.com"
     authentication: :plain
-    user_name: "mail@gmail.com"
-    password: "password"
+    user_name: "heroku.redmine.mail@gmail.com"
+    password: "r3dm1n3h3r0ku"
